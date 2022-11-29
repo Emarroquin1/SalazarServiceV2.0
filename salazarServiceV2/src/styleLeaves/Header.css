@@ -34,3 +34,6 @@
     padding-top: .1rem;
 }
 
+#navbarNavDropdown{
+    transition: 1s;
+}
