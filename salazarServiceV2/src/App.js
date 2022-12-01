@@ -2,9 +2,32 @@
 import './App.css';
 import Carousel from './componentes/carousel';
 import Header from './componentes/header';
-import about from './componentes/about';
+import About from './componentes/about';
+import Ourjobs from './componentes/OurJobs';
+
+import w1 from './imagenesWork/wa1.jpeg'
+import w2 from './imagenesWork/w2.jpeg'
+import w3 from './imagenesWork/w3.jpeg'
+import w4 from './imagenesWork/w4.jpeg'
+import w5 from './imagenesWork/w6.jpeg'
+import w6 from './imagenesWork/w7.jpeg'
+import w7 from './imagenesWork/w8.jpeg'
+import w8 from './imagenesWork/w9.jpeg'
+import w9 from './imagenesWork/w10.jpeg'
+import w10 from './imagenesWork/w11.jpeg'
+import w11 from './imagenesWork/w12.jpeg'
+import w12 from './imagenesWork/w13.jpeg'
+import w13 from './imagenesWork/w14.jpeg'
+import w14 from './imagenesWork/w15.jpeg'
+
+
+
+
 import './styleLeaves/Header.css';
 import './styleLeaves/Carousel.css';
+import './styleLeaves/About.css';
+import './styleLeaves/Ourjobs.css';
+
 function App() {
   return (
     <div className="App">
@@ -47,11 +70,49 @@ function App() {
 
       </Carousel>
       
-      <about>
+      <About 
+      titulo="About Us Informations"
+      texto1="Well in this company you will find many kind of services, Our company stands out
+      for many things such as our great services and attention that we give our customers.
+      don't miss this opportunity to have a cheap and awesome service, we will be glad to attend
+      you"
+      titulo2="Great services with trustworthy people"
+      texto2="If you choose our services you will get the Information of what person will attend 
+      the service that you want to order. Because from our point of view your peace and trust
+      is the most important thing."
+      imagen="https://media.istockphoto.com/photos/roofer-builder-worker-picture-id626486888?b=1&k=20&m=626486888&s=170667a&w=0&h=05O7xUj5KmjAwc7TuJ23m5f5kOhOyTh4ALJ2GCICZ54="
+      >
 
         
-      </about>
+      </About>
 
+<Ourjobs
+
+link1={w2}
+link2={w3}
+link3={w4}
+link4={w5}
+link5={w6}
+link6={w7}
+link7={w8}
+link8={w9}
+link9={w10}
+link10={w11}
+link11={w12}
+link12={w13}
+link13={w14}
+link14={w14}
+link15={w14}
+link16={w14}
+link17={w14}
+link18={w14}
+link19={w14}
+link20={w14}
+link21={w1}
+>
+
+
+</Ourjobs>
 
     </div>
   );

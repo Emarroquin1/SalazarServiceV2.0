@@ -1,10 +1,10 @@
 import React from "react";  
 
 
-function about(props){
+function About(props){
     return(
        
-        <div id="about" class="about">
+        <div id="about" className="about">
            <div className="container">
               <div className="row">
                  <div className="col-md-12">
@@ -16,18 +16,18 @@ function about(props){
                  </div>
               </div>
            </div>
-           <div className="container-fluid">
-              <div className="row" style="margin: auto;">
+           <div className="container">
+              <div className="row" style={{margin: "auto"}}>
                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                     <div className="about-box">
-                       <h3 id="h3texto" style="text-align: center;">{props.titulo2} </h3>
+                       <h3 id="h3texto" style={{textAlign:"center"}}>{props.titulo2} </h3>
                        <p>{props.texto2}
                        </p>
                        
                     </div>
                  </div>
                  
-                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
                      <div className="about-box">
                        
                        <img   src={props.imagen}  alt="imagen about"/>
@@ -48,4 +48,4 @@ function about(props){
 
 }
 
-export default about;
+export default About;

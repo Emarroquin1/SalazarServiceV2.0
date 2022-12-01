@@ -1,0 +1,41 @@
+.Screenshot{
+    text-align: center;
+   
+}.titlepage h2 {
+   
+    font-size: 40px;
+    
+    color: #050303;
+    line-height: 46px;
+    border-bottom: #1262f7 solid 1px;
+    width: 50%;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+  }
+
+
+
+ #carouselExampleCaptions2 {
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  }
+
+  .about-box img {
+    width: 350px;
+
+    border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+    border: solid #295886;
+   
+    box-shadow: 10px 11px 8px -6px rgba(0,0,0,1);
+    -webkit-box-shadow: 10px 11px 8px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 11px 8px -6px rgba(0,0,0,1);
+
+  }
+
+  
