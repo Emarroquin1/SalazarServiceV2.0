@@ -4,6 +4,7 @@ import Carousel from './componentes/carousel';
 import Header from './componentes/header';
 import About from './componentes/about';
 import Ourjobs from './componentes/OurJobs';
+import Service from './componentes/Service';
 
 import w1 from './imagenesWork/wa1.jpeg'
 import w2 from './imagenesWork/w2.jpeg'
@@ -22,11 +23,18 @@ import w14 from './imagenesWork/w15.jpeg'
 
 
 
+import service2 from './images/landscape.jpg'
+import service3 from './images/preasurewatch.jpg'
+
+
+
 
 import './styleLeaves/Header.css';
 import './styleLeaves/Carousel.css';
 import './styleLeaves/About.css';
 import './styleLeaves/Ourjobs.css';
+import './styleLeaves/Service.css';
+
 
 function App() {
   return (
@@ -113,6 +121,34 @@ link21={w1}
 
 
 </Ourjobs>
+
+<Service
+
+titulo="Services"
+link1= "https://www.cheappaintersingapore.com/wp-content/uploads/2021/03/tg3q35hq.jpg"
+link2={service2}
+link3={service3}
+link4="https://www.loofal.com/wp-content/uploads/2020/04/loofal-solar-work-solar-services.jpg"
+
+Subtitulo1='Painting'
+texto1='Applying paint, stain and other finishes to paint surfaces using paintbrushes, rollers or sprayers. Maintaining an inventory of supplies like paint brushes, rollers and tarps. Removing old finish using scrapers, chemical compounds or blowtorches. Estimating time and material costs on painting projects.'
+
+Subtitulo2='landscape'
+texto2='Mowing, edging and fertilizing lawns. Weeding and mulching landscape beds. Trimming small trees, hedges and shrubs. Removing unwanted, dead or damaged trees. Planting shrubs, flowers and trees.'
+
+Subtitulo3='pressure wash'
+texto3='Pressure washing uses hot water to expel water at a high PSI (pounds per square inch) onto the surface you are treating. This provides a deep clean for: Surface cleaning: driveways, sidewalks, driveways, patios and more. pool deck cleaning'
+
+Subtitulo4='Roofing'
+texto4='From roof removal to a new roof installation, we help
+you select and install the right roof for your needs. We will help you maintain your roof to increase it is
+longevity.'
+
+
+>
+  
+  
+</Service>
 
     </div>
   );
