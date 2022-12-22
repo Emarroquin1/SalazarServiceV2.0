@@ -251,7 +251,85 @@ const abrirImagen6 = ()=>{
 
                </div>
              
-        
+               <div className="row">
+               <div className="col-md-12 text-center">
+                  <div className="titlepage">
+                     <h2>More about Descaling</h2>
+                  </div>
+
+                  <span style={{fontSize: "medium"}}>
+                  The following is our menu of descaling services performed at your other division locations.  
+                  As with all of our clients the expectations and pricing can be fluid depending on strategic efforts 
+                  and budgets.  We know based on several case studies that this program has increased 
+                  driver retention and is a physical demonstration of management's support of drivers efforts and respect.   
+                   
+                  
+                  </span>
+<p></p>
+                  <h3>Our Descaling program is curated to do the following:</h3>
+<div id="lista">
+
+<ol>
+  <li>Increase Driver Retention</li>
+  <li>Promote Driver Morale</li>
+  <li>Foster Mechanics Efficiencies promoting instant ROI</li>
+  <li>Best Practices for community road safety</li>
+  <li>Focused Pride of Ownership</li>
+</ol>
+</div>
+
+<p></p>
+<span style={{fontSize: "medium"}}> 
+We have found the best methodology to a successful descaling plan in consistency and commitment. 
+The feedback from mechanics and drivers has been very positive but has also allowed us to modify
+the plan according to their needs and wants.   
+</span>
+<p></p>
+<table class="table table-dark ">
+<th  colSpan={12} style={{color:"black", textAlign:"center"}} >OUR PLANS</th>
+<tbody>
+<tr>
+<td>
+   <b>Gold</b>
+</td>    
+<td>
+   <b>Silver</b>
+</td>   
+<td>
+   <b>Platinum</b>
+</td> 
+</tr>
+<tr>
+
+<td>
+Remove concrete from rear of truck including:
+
+
+</td>
+
+<td>
+
+Remove all concrete from rear of truck including:
+
+</td>
+
+<td>
+
+Remove all concrete from rear of truck including:
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+
+               </div>
+            </div>
+
+
          </div>
       </div>
      
