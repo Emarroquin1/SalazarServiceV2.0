@@ -117,7 +117,9 @@ titulo="Services"
 link1= "https://www.cheappaintersingapore.com/wp-content/uploads/2021/03/tg3q35hq.jpg"
 link2={service2}
 link3={service3}
-link4="https://www.loofal.com/wp-content/uploads/2020/04/loofal-solar-work-solar-services.jpg"
+link4="https://ontopsroofing.com/hubfs/roofer-1.jpeg"
+link5="https://www.trac-online.com/application/files/thumbnails/custom_767x767_proportional_2x/5716/2508/2741/ServicePage.jpg"
+link6="https://img.choice.com.au/-/media/7368f64cce8445de8bbb37a3afad9355.ashx?w=660&jq=80%20660w"
 
 Subtitulo1='Painting'
 texto1='Applying paint, stain and other finishes to paint surfaces using paintbrushes, rollers or sprayers. Maintaining an inventory of supplies like paint brushes, rollers and tarps. Removing old finish using scrapers, chemical compounds or blowtorches. Estimating time and material costs on painting projects.'
@@ -132,6 +134,18 @@ Subtitulo4='Roofing'
 texto4='From roof removal to a new roof installation, we help
 you select and install the right roof for your needs. We will help you maintain your roof to increase it is
 longevity.'
+
+Subtitulo5='Descaling'
+texto5='Understanding what drivers and plant level labor value takes serious effort from management 
+and now an outside the box analysis.  Our efforts to make transformational relationships instead of
+transactional at all layers of the organizational charts is extremely difficult but an important effort.'
+
+Subtitulo6='Solar Panel '
+texto6='As solar panels have no moving parts, very little service and maintenance is required. 
+To keep your solar panels generating efficiently we recommend an annual service to ensure your 
+system is kept in full working order and any fault or drop in generation is flagged immediately 
+and resolved. With average rain fall most panels are self-cleaning.'
+
 
 
 >

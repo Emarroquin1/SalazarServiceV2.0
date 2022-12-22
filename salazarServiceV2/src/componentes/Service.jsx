@@ -4,11 +4,11 @@ import React from "react";
 function Service (props){
 
   
-   var validador =1,validador2=1,validador3=1,validador4=1;
+   var validador =1,validador2=1,validador3=1,validador4=1,validador5=1,validador6=1;
 
    const abrirImagen1 = ()=>{
 
-      if(validador==1){
+      if(validador===1){
      
          document.getElementById('capa1').style.boxShadow='0px 15px 25px';
          
@@ -17,7 +17,7 @@ function Service (props){
          document.getElementById('a1').style.color='rgb(9, 220, 255)';
          document.getElementById('p1').style.visibility='visible';
             validador=2;
-         }else if(validador==2){
+         }else if(validador===2){
          document.getElementById('capa1').style.backgroundColor ='transparent';
          document.getElementById('a1').style.top='45%';
          document.getElementById('p1').style.visibility='hidden'; 
@@ -32,7 +32,7 @@ function Service (props){
 
    const abrirImagen2 = ()=>{
 
-      if(validador2==1){
+      if(validador2===1){
     
          document.getElementById('capa2').style.boxShadow='0px 15px 25px';
          document.getElementById('capa2').style.backgroundColor ='rgba(17, 33, 79, 0.7)';
@@ -40,7 +40,7 @@ function Service (props){
          document.getElementById('a2').style.color='rgb(9, 220, 255)';
          document.getElementById('p2').style.visibility='visible';
             validador2=2;
-         }else if(validador2==2){
+         }else if(validador2===2){
          document.getElementById('capa2').style.backgroundColor ='transparent';
          document.getElementById('a2').style.top='45%';
          document.getElementById('p2').style.visibility='hidden'; 
@@ -55,14 +55,14 @@ function Service (props){
 
    const abrirImagen3 = ()=>{
 
-      if(validador3==1){
+      if(validador3===1){
          document.getElementById('capa3').style.boxShadow='0px 15px 25px';
          document.getElementById('capa3').style.backgroundColor ='rgba(17, 33, 79, 0.7)';
          document.getElementById('a3').style.top='10%';
          document.getElementById('a3').style.color='rgb(9, 220, 255)';
          document.getElementById('p3').style.visibility='visible';
             validador3=2;
-         }else if(validador3==2){
+         }else if(validador3===2){
          document.getElementById('capa3').style.backgroundColor ='transparent';
          document.getElementById('a3').style.top='45%';
          document.getElementById('p3').style.visibility='hidden'; 
@@ -79,14 +79,14 @@ function Service (props){
    const abrirImagen4 = ()=>{
 
 
-   if(validador4==1){
+   if(validador4===1){
       document.getElementById('capa4').style.boxShadow='0px 15px 25px';
    document.getElementById('capa4').style.backgroundColor ='rgba(17, 33, 79, 0.7)';
    document.getElementById('a4').style.top='10%';
    document.getElementById('a4').style.color='rgb(9, 220, 255)';
    document.getElementById('p4').style.visibility='visible';
       validador4=2;
-   }else if(validador4==2){
+   }else if(validador4===2){
    document.getElementById('capa4').style.backgroundColor ='transparent';
    document.getElementById('a4').style.top='45%';
    document.getElementById('p4').style.visibility='hidden'; 
@@ -98,6 +98,49 @@ function Service (props){
    }
 }
 
+const abrirImagen5 = ()=>{
+
+
+   if(validador5===1){
+      document.getElementById('capa5').style.boxShadow='0px 15px 25px';
+   document.getElementById('capa5').style.backgroundColor ='rgba(17, 33, 79, 0.7)';
+   document.getElementById('a5').style.top='10%';
+   document.getElementById('a5').style.color='rgb(9, 220, 255)';
+   document.getElementById('p5').style.visibility='visible';
+      validador5=2;
+   }else if(validador5===2){
+   document.getElementById('capa5').style.backgroundColor ='transparent';
+   document.getElementById('a5').style.top='45%';
+   document.getElementById('p5').style.visibility='hidden'; 
+   document.getElementById('a5').style.color='white';
+   document.getElementById('capa5').style.boxShadow='0px 0px 2px';
+   validador5=1;
+   
+   
+   }
+}
+
+const abrirImagen6 = ()=>{
+
+
+   if(validador6===1){
+   document.getElementById('capa6').style.boxShadow='0px 15px 25px';
+   document.getElementById('capa6').style.backgroundColor ='rgba(17, 33, 79, 0.7)';
+   document.getElementById('a6').style.top='10%';
+   document.getElementById('a6').style.color='rgb(9, 220, 255)';
+   document.getElementById('p6').style.visibility='visible';
+      validador6=2;
+   }else if(validador6===2){
+   document.getElementById('capa6').style.backgroundColor ='transparent';
+   document.getElementById('a6').style.top='45%';
+   document.getElementById('p6').style.visibility='hidden'; 
+   document.getElementById('a6').style.color='white';
+   document.getElementById('capa6').style.boxShadow='0px 0px 2px';
+   validador6=1;
+   
+   
+   }
+}
     return(
 
    
@@ -159,7 +202,7 @@ function Service (props){
                </div>
                </div>
                <div className="row">
-               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb" style={{margin: "auto"}}>
+               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
                   <div className="service-box contenedorServices">
                      <figure>
                       
@@ -169,6 +212,37 @@ function Service (props){
                            <button  id="a4" className="afigure" onClick={()=>{abrirImagen4()}}>{props.Subtitulo4}</button>
                            <p className="p1figure" id="p4" >
                            {props.texto4}</p>
+                        </div>
+      
+                     </figure>
+                  </div>
+               </div>
+               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
+                  <div className="service-box contenedorServices">
+                     <figure>
+                      
+                        <img  src={props.link5} className="img-fluid Imgfancybox"  alt=""/>
+
+                        <div className="capaFigure" id="capa5">
+                           <button  id="a5" className="afigure" onClick={()=>{abrirImagen5()}}>{props.Subtitulo5}</button>
+                           <p className="p1figure" id="p5" >
+                           {props.texto5}</p>
+                        </div>
+      
+                     </figure>
+                  </div>
+               </div>
+
+               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 thumb">
+                  <div className="service-box contenedorServices">
+                     <figure>
+                      
+                        <img  src={props.link6} className="img-fluid Imgfancybox"  alt=""/>
+
+                        <div className="capaFigure" id="capa6">
+                           <button  id="a6" className="afigure" onClick={()=>{abrirImagen6()}}>{props.Subtitulo6}</button>
+                           <p className="p1figure" id="p6" >
+                           {props.texto6}</p>
                         </div>
       
                      </figure>

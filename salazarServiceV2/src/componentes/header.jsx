@@ -24,7 +24,7 @@ return(
           <a className="nav-link" href="/#about" >About us</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#service">Service</a>
+          <a className="nav-link" href="/#service">Services</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/#screenshot">Our Jobs</a>
